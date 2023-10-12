@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
   <title>Dayson Portfolio</title>
 <style>
 body{
@@ -90,7 +89,7 @@ border: 1.5px solid #53A8F3;
 
 .about-author{
 width: 310px;
-height: 600px;
+height: 700px;
 background:hsla(91, 3%, 21%, 1);
 box-shadow:8px 10px 16px rgba(0,0,0,0.3);
 margin-top: 20px;
@@ -148,9 +147,33 @@ h1{
 font-family: cursive;
 color:white;
 }
-i{
-font-size: 70px;
-color: #6192E7;
+.contact{
+width: auto;
+height: 50px;
+}
+.contact > img{
+display: inline;
+width: 40px;
+height: 40px;
+border-radius: 5px;
+margin: 5px;
+}
+pre{
+margin-top: 50px;
+font-size: 15px;
+font-weight: 900;
+color: white;
+}
+
+#name{
+color: dodgerblue;
+}
+
+.projects > p{
+color: white;
+font-weight:500;
+font-size: 15px;
+margin-top: 100px;
 }
 </style>
 </head>
@@ -172,28 +195,47 @@ color: #6192E7;
     <h3>I have almost 3 years of experience in web development which can guarantee you a great web experience if you patronize my services.</h3>
   </div>
   <div class="projects">
-
+<h2>My Projects</h2>
+<p>Coming soon...</p>
   </div>
  <div class="about-author">
    <h2>About Author</h2>
  <img src="myPic.jpg" alt="author's-pic" id="pic"/>
- <h1>Sodiq Tunde</h1>
+ <h1 id="name">Sodiq Tunde</h1>
   <p>I am a web developer who builds stunning, seamless, and fast websites.</p>
   <p>I build websites for clients who are willing to work with me.</p>
   <p>It is just a matter of time before you own a beautiful website, it is just one click away.</p>
   <p>You can contact me at:</p>
-<a src=""><i class="fa fa-facebook"></i></a>
-<a src=""><i class="fa fa-whatsapp"></i></a>
-<a src="https://x.com/Dayson848122028?s=09"><i class="fa fa-twitter"></i></a>
-<a src=""><i class="fa fa-gmail"></i></a>
- </div>
+<div class="contact">
+  <img src="fb.png"/>
+  <img src="whatsapp.png"/>
+  <img src="x.png"/>
+</div>
+</div>
  
  <footer>
 <div class="footer">
-© DAYSON 2023
+  <pre>© DAYSON 2023.</pre>
  </div>
  </footer>
 
-<script src="script.js"></script>
+<script>
+var c= document.querySelector(".contact") 
+var imgs= c.querySelectorAll("img")
+imgs[0].onclick= ()=>{
+window.open("https://www.facebook.com/profile.php?id=100093639788963", "_blank")
+}
+
+imgs[1].onclick=()=>{
+window.open("https://wa.me/qr/JRD3P272QS5ZO1","_blank")
+}
+imgs[2].onclick=()=>{
+window.open("https://x.com/Dayson848122028?s=09","_blank")
+}
+
+
+  
+
+</script>
 </body>
-</html>
+</html> 
