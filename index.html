@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 
 <head>
@@ -100,7 +100,7 @@ padding-top: 20px;
 
 .projects{
 width: 310px;
-  height: 300px;
+  height: 80px;
   background:hsla(91, 3%, 21%, 1);
   box-shadow:8px 10px 16px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
@@ -108,7 +108,10 @@ width: 310px;
   text-align: center;
   padding-top: 20px;
 }
-.footer{
+.projects > h2{
+color: #E4760D;
+}
+  .footer{
 width: auto;
 height: 180px;
   background:hsla(91, 3%, 21%, 1);
@@ -125,11 +128,14 @@ border-radius: 50%;
 border: 4px solid #53A8F3;
 transition-duration: 0.5s;
 }
-.about-author > h2{
+.about-author> h2{
 color: #53A8F3;
 }
 .about-author > p{
-color: white; 
+color: white;
+font-family: Kreon;
+font-weight: 500;
+font-size: 15px;
 }
 #pic:hover{
 width: 230px; 
@@ -169,11 +175,24 @@ color: white;
 color: dodgerblue;
 }
 
-.projects > p{
+.pro > p{
 color: white;
 font-weight:500;
 font-size: 15px;
-margin-top: 100px;
+margin-top: 10px;
+font-family: monospace;
+}
+.pro{
+width: 100%;
+height: 200px;
+background:hsla(91, 3%, 21%, 1);
+border-radius: 7px;
+border: 2px solid #E4760D;
+margin-top: 20px;
+text-align: center;
+}
+a{
+color: #E4760D;
 }
 </style>
 </head>
@@ -196,8 +215,14 @@ margin-top: 100px;
   </div>
   <div class="projects">
 <h2>My Projects</h2>
-<p>Coming soon...</p>
   </div>
+<div class="pro">
+<h3>Joke Generator</h3>
+<p>Wanna laugh a little?</p>
+<p>Light up your day with my custom joke generator</p>
+<a href="https://dayson9.github.io/joke">
+<span>Check it out</span></a>
+</div>
  <div class="about-author">
    <h2>About Author</h2>
  <img src="myPic.jpg" alt="author's-pic" id="pic"/>
@@ -210,6 +235,7 @@ margin-top: 100px;
   <img src="fb.png"/>
   <img src="whatsapp.png"/>
   <img src="x.png"/>
+<img src="gmail.png">
 </div>
 </div>
  
@@ -232,10 +258,12 @@ window.open("https://wa.me/qr/JRD3P272QS5ZO1","_blank")
 imgs[2].onclick=()=>{
 window.open("https://x.com/Dayson848122028?s=09","_blank")
 }
-
-
+imgs[3].onclick = () => {
+   window.open("mailto:tundedayson90@gmail.com", "_blank")
+ }
+ 
   
 
 </script>
 </body>
-</html> 
+</html>
