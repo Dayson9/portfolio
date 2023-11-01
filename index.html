@@ -1,13 +1,11 @@
  <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-<meta name="google-site-verification" content="CPxPqOs73gi5C4z4bDJ67W7rDfbxhOkAqYvMZiNul-E" /> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="google-site-verification" content="CPxPqOs73gi5C4z4bDJ67W7rDfbxhOkAqYvMZiNul-E" />
   <title>Dayson Portfolio</title>
- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1619397015913318"
-     crossorigin="anonymous"></script>
 <style>
 body{
 margin: 0;
@@ -18,7 +16,7 @@ div{
 margin: 0 auto;  
 }
 .board{
-width: 340px;
+width: 97%;
 height: 200px;
 border-radius: 10px;
 text-align: center;
@@ -32,7 +30,6 @@ font-family: helvetica, sans-serif;
 transition-duration: 0.5s;
 }
 h2{
-  text-decoration: underline;
 color: #53A8F3;
 }
 
@@ -81,17 +78,18 @@ margin-bottom: 20px;
 color: #53A8F3;
 }
 #logo{
-width: 340px;
-border-radius: 5px;
-height: 70px;
-   box-shadow:8px 10px 16px rgba(0,0,0,0.3);
+width: 60px;
+border-radius: 50%;
+height: 60px;
+display: inline;
+margin-top: 5px;
 }
 .board:hover{
 border: 1.5px solid #53A8F3;
 }
 
 .about-author{
-width: 310px;
+width: 90%;
 height: 700px;
 background:hsla(91, 3%, 21%, 1);
 box-shadow:8px 10px 16px rgba(0,0,0,0.3);
@@ -167,7 +165,7 @@ height: 40px;
 border-radius: 5px;
 margin: 5px;
 }
-pre{
+#pre{
 margin-top: 50px;
 font-size: 15px;
 font-weight: 900;
@@ -197,10 +195,30 @@ text-align: center;
 a{
 color: #E4760D;
 }
+#bar{
+width: 100%;
+height: 13%;
+position: fixed;
+top: 0px;
+left: 0px;
+background: hsla(91, 3%, 21%, 1);
+border-radius: 5px;
+}
+
+#title{
+ position: fixed;
+ top: -8px;
+ left: 70px;
+ color: dodgerblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 </style>
 </head>
 <body>
-<img src="Logo1.png" id="logo"/>
+<div id="bar">
+  <img src="logo.jpg" id="logo"/>
+  <h1 id="title">Dayson Portfolio</h1>
+ </div>
 
  <div class="board">
    <h2>WEB DEVELOPMENT</h2>
@@ -217,13 +235,14 @@ color: #E4760D;
     <h3>I have almost 3 years of experience in web development which can guarantee you a great web experience if you patronize my services.</h3>
   </div>
   <div class="projects">
-<h2>My Projects</h2>
+<pre><h2>My Projects
+🎨</h2></pre>
   </div>
 <div class="pro">
-<h3>Joke Generator</h3>
+<h3>😂😂Joke Generator😁😁</h3>
 <p>Wanna laugh a little?</p>
 <p>Light up your day with my custom joke generator</p>
-<a href="https://dayson9.github.io/joke" target="_blank">
+<a href="https://dayson9.github.io/joke">
 <span>Check it out</span></a>
 </div>
  <div class="about-author">
@@ -244,7 +263,7 @@ color: #E4760D;
  
  <footer>
 <div class="footer">
-  <pre>© DAYSON 2023.</pre>
+  <pre id="pre">© DAYSON 2023.</pre>
  </div>
  </footer>
 
@@ -262,10 +281,8 @@ imgs[2].onclick=()=>{
 window.open("https://x.com/Dayson848122028?s=09","_blank")
 }
 imgs[3].onclick = () => {
-   window.open("mailto:tundedayson90@gmail.com", "_blank")
+   window.open("mailto:tundedayson90@gmail.com","" "_blank")
  }
- 
-  
 
 </script>
 </body>
