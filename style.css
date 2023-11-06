@@ -1,0 +1,236 @@
+body{
+margin: 0px;
+padding: 0px;
+background: White;
+transition: .3s;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+div{
+margin: 0 auto;  
+}
+.board{
+width: 97%;
+height: 220px;
+border-radius: 10px;
+text-align: center;
+background: linear-gradient(to right, #7FA5EC, dodgerblue);
+border: 2px solid #7FA5EC;
+margin-top: 30px;
+padding-top: 5px;
+padding-bottom: 20px;
+font-family: helvetica, sans-serif;
+transition-duration: 0.5s;
+}
+h2{
+color: white;
+}
+
+h3{
+color: white;
+font-family: verdana, sans-serif;
+}
+hr{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+h1, h2,h4, p{
+color: white;
+}
+#logo{
+width: 60px;
+border-radius: 50%;
+height: 60px;
+display: inline;
+margin-top: 5px;
+}
+
+
+.about-author{
+  width: 100%;
+height: 700px;
+background: linear-gradient(to right, #7FA5EC, dodgerblue);
+margin-top: 20px;
+border-radius: 5px 5px 0px 0px;
+text-align: center;
+padding-top: 20px;
+}
+
+
+
+  .footer{
+width: 100%;
+height: 150px;
+  background: #723053;
+  margin: 0px;
+ text-align: center;
+  padding-top: 20px;
+}
+#pic{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 4px solid #7FA5EC;
+transition-duration: 0.5s;
+}
+.about-author > h2{
+color: white;
+}
+.about-author > p{
+color: white;
+font-weight: 600;
+font-family: verdana;
+font-size: 17px;
+}
+#pic:hover{
+width: 230px; 
+height: 230px;
+box-shadow:8px 10px 16px 5px rgba(0,0,0,0.3);
+}
+.fb{
+font-size: 40px;
+}
+p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 600;
+}
+h1{
+font-family: cursive;
+color:white;
+}
+.contact{
+width: auto;
+height: 50px;
+}
+.contact > img{
+display: inline;
+width: 40px;
+height: 40px;
+border-radius: 5px;
+margin: 5px;
+}
+#pre{
+  color: whitesmoke;
+margin-top: 50px;
+font-size: 15px;
+font-weight: 900;
+}
+
+#name{
+color: white;
+}
+
+   #bg{
+   width: 320px;
+   height: 340px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #7FA5EC, #53A8F3);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+   }
+ .img{
+ width: 280px;
+ height: 180px;
+ margin: 0 auto;
+ border-radius: 5px;
+ background: white;
+ }
+  
+#bg > p{
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+font-family: verdana;
+}
+ 
+ button{
+width: 150px;
+height: 40px;
+border: 2px solid white;
+background: white;
+font-weight: 700;
+border-radius: 50px;
+display: inline;
+color: dodgerblue;
+float: left;
+margin-left: 20px;
+font-family: monospace;
+ } 
+
+.pro_header{
+text-align: center;
+color: #7FA5EC;
+}
+
+ 
+
+
+#text{
+color: white;
+font-family: cursive;
+font-size: 30px;
+position: fixed;
+top: -12px;
+left: 20%;
+}
+
+ 
+img{
+width: 60px;
+height: 55px;
+margin: 0 auto;
+border-radius: 10px;
+}
+
+#head{
+background: #723053;
+width: 100%;
+height: 60px;
+position: fixed;
+top: 0px;
+left: 0px;
+padding-top: 5px;
+}
+
+#bar{
+color: white;
+font-size: 40px;
+margin-top: 7px;
+margin-right: 10px;
+display: inline;
+float: right;
+}
+
+.board > img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: white;
+margin-bottom: -20px;
+}
+
+#nav{
+width: 0%;
+height: 80%;
+position: fixed;
+top: 65px;
+right: 0px;
+border-top: 2px solid #FF870A;
+background: #723053;
+border-radius: 0px 0px 5px 5px;
+transition: .3s;
+}
+
+a{
+color: #8BD2FF;  
+}
+li{
+color: #FF870A;
+margin-top: 30px;
+height: 0px;
+transition: .3s;
+  
