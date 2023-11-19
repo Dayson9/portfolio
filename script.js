@@ -4,15 +4,15 @@ const bar= document.getElementById('bar')
 const nav_c= document.getElementById('nav-content')
 const nav= document.getElementById('nav')
 var nav_is_opened = false;
+const calc_width= (window.innerWidth*0.9);
+
 
 bar.ontouchstart = () =>{
 if(nav_is_opened){
-nav.style.width= "0%";
-nav_c.style.opacity= "0";
+nav.style.transform= "translateX("+calc_width+"px)";
 nav_is_opened= false;
 }else{
-nav.style.width= "90%";
-nav_c.style.opacity= "1"
+nav.style.transform= "translateX("+(0.0)+"px)";
 nav_is_opened= true;
 }
 }
@@ -30,6 +30,5 @@ window.open("https://x.com/Dayson848122028?s=09","_blank")
 }
 imgs[3].onclick = () => {
    window.open("mailto:tundedayson90@gmail.com","_blank")
- }
-
-                                     
+}
+   
