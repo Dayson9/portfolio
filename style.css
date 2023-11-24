@@ -1,7 +1,7 @@
 body{
 margin: 0px;
 padding: 0px;
-background: White;
+background: white;
 transition: .3s;
 }
 *{
@@ -12,18 +12,17 @@ scroll-behavior: smooth;
 }
 
 div{
-margin: 0 auto;  
+margin: 0 auto;
 }
 .board{
 width: 97%;
-height: 250px;
+height: 220px;
 border-radius: 10px;
 text-align: center;
 background: linear-gradient(to right, #7FA5EC, dodgerblue);
-border: 2px solid #7FA5EC;
 margin-top: 30px;
 padding-top: 5px;
-padding-bottom: 20px;
+font-family: helvetica, sans-serif;
 transition-duration: 0.5s;
 }
 h2{
@@ -32,9 +31,12 @@ color: white;
 
 h3{
 color: white;
+font-family: verdana;
+margin-top: -10px;
 }
+
 hr{
-margin-top: 30px;
+margin-top: 20px;
 margin-bottom: 30px;
 }
 h1, h2,h4, p{
@@ -54,12 +56,14 @@ margin-top: 5px;
 height: 700px;
 background: linear-gradient(to right, #7FA5EC, dodgerblue);
 margin-top: 20px;
-border-radius: 20px 20px 0px 0px;
+border-radius: 25px 25px 0px 0px;
 text-align: center;
 padding-top: 20px;
 }
 
-
+h4{
+margin-bottom: -5px;
+}
 
   .footer{
 width: 100%;
@@ -83,11 +87,10 @@ color: white;
 .about-author > p{
 color: white;
 font-weight: 600;
+font-family: 'Playpen sans';
 font-size: 17px;
 }
-#pic:hover{
-border-color: wheat;
-}
+
 .fb{
 font-size: 40px;
 }
@@ -121,8 +124,8 @@ color: white;
 }
 
    #bg{
-   width: 320px;
-   height: 360px;
+   width: 330px;
+   height: 340px;
   border-radius: 10px;
   background: linear-gradient(to right, #7FA5EC, #53A8F3);
     margin: 0 auto;
@@ -141,6 +144,7 @@ color: white;
   color: white;
   font-weight: 600;
   font-size: 15px;
+font-family: verdana;
 }
  
  button{
@@ -152,14 +156,17 @@ font-weight: 700;
 border-radius: 50px;
 display: inline;
 color: dodgerblue;
-float: left;
-margin-left: 20px;
+margin-left: -130px;
+font-family: monospace;
  } 
 
 .pro_header{
 text-align: center;
 color: #7FA5EC;
+margin-top: 15px;
+margin-bottom: 5px;
 }
+
 
  
 
@@ -170,7 +177,7 @@ font-family: cursive;
 font-size: 30px;
 position: fixed;
 top: -12px;
-left: 20%;
+left: 70px;
 }
 
  
@@ -193,8 +200,8 @@ padding-top: 5px;
 
 #bar{
 color: white;
-font-size: 40px;
-margin-top: 7px;
+font-size: 25px;
+margin-top: 15px;
 margin-right: 10px;
 display: inline;
 float: right;
@@ -230,4 +237,21 @@ color: #FF870A;
 margin-top: 30px;
 height: 0px;
 transition: .3s;
+}
+
+@media only screen and (min-width: 768px){
+body{
+padding-top: 2%;
+}
+.board{
+width: 360px;
+height: 250px;
+margin-top: 25px;
+margin-left: 20px;
+display: inline-table;
+}
+#bg{
+display: inline-block;
+margin: 20px;
   }
+  
