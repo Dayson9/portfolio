@@ -4,7 +4,9 @@ padding: 0px;
 background: White;
 transition: .3s;
 }
-
+*{
+font-family: 'Playpen sans';
+}
 html {
 scroll-behavior: smooth;
 }
@@ -22,7 +24,6 @@ border: 2px solid #7FA5EC;
 margin-top: 30px;
 padding-top: 5px;
 padding-bottom: 20px;
-font-family: helvetica, sans-serif;
 transition-duration: 0.5s;
 }
 h2{
@@ -31,7 +32,6 @@ color: white;
 
 h3{
 color: white;
-font-family: verdana, sans-serif;
 }
 hr{
 margin-top: 30px;
@@ -83,7 +83,6 @@ color: white;
 .about-author > p{
 color: white;
 font-weight: 600;
-font-family: verdana;
 font-size: 17px;
 }
 #pic:hover{
@@ -93,7 +92,6 @@ border-color: wheat;
 font-size: 40px;
 }
 p{
-font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 600;
 }
 h1{
@@ -143,7 +141,6 @@ color: white;
   color: white;
   font-weight: 600;
   font-size: 15px;
-font-family: verdana;
 }
  
  button{
@@ -157,7 +154,6 @@ display: inline;
 color: dodgerblue;
 float: left;
 margin-left: 20px;
-font-family: monospace;
  } 
 
 .pro_header{
